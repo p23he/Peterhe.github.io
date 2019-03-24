@@ -1,0 +1,68 @@
+body, html {
+	width: 100%;
+	margin: 0;
+}
+
+h1 {
+	font-family: 'Cutive';
+}
+
+p {
+	font-family: 'Amiko';
+}
+
+.cover {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(40%);
+}
+
+#bg1 {
+	background-image: url("img/mountain.jpg");
+	min-height: 100vh;
+}
+
+.caption {
+	position: absolute;
+	top: 35%;
+	text-align: center;
+	left: 0;
+	width: 100%;
+}
+
+.caption h1, p {
+	color: white;
+}
+
+#line {
+	width: 20%;
+	border-color: #4FC1E9;
+}
+
+.links a {
+	color: white;
+	margin: 6px;
+}
+
+.links a:hover {
+	color: #4FC1E9;
+}
+
+
+/*.projects h1, p {
+	text-align: center;
+	color: black;
+}*/
+
+* {
+	  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
