@@ -37,6 +37,10 @@ p {
 	color: white;
 }
 
+.caption h1 {
+	font-size: 50px;
+}
+
 #line {
 	width: 20%;
 	border-color: #4FC1E9;
