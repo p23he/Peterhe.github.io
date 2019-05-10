@@ -7,7 +7,7 @@ h1 {
 	font-family: 'Cutive';
 }
 
-p {
+p, h2 {
 	font-family: 'Amiko';
 }
 
@@ -41,6 +41,21 @@ p {
 	font-size: 50px;
 }
 
+.projects h1 {
+	text-align: center;
+	left: 0;
+	width: 100%;
+	font-size: 50px;
+}
+
+.projects {
+	text-align: center;
+}
+
+.projects p {
+	color: black;
+}
+
 #line {
 	width: 20%;
 	border-color: #4FC1E9;
@@ -55,11 +70,6 @@ p {
 	color: #4FC1E9;
 }
 
-
-/*.projects h1, p {
-	text-align: center;
-	color: black;
-}*/
 
 * {
 	  -webkit-touch-callout: none; /* iOS Safari */
