@@ -3,6 +3,10 @@ body, html {
 	margin: 0;
 }
 
+body {
+	background-color: lightgray;
+}
+
 h1 {
 	font-family: 'Cutive';
 }
@@ -68,6 +72,14 @@ p, h2 {
 
 .links a:hover {
 	color: #4FC1E9;
+}
+
+.box {
+	flex: 0 0 33.333333%;
+	max-width: 33.3333333%;
+	margin: 6px 0px 6px 0px;
+	padding: 6px 6px 6px 6px;
+	display: inline-block;
 }
 
 
