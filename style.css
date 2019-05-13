@@ -1,3 +1,12 @@
+
+a {
+	font-family: 'Amiko';
+}
+
+a:hover {
+	color: #4FC1E9;
+}
+
 body, html {
 	width: 100%;
 	margin: 0;
@@ -15,22 +24,15 @@ p, h2, h3 {
 	font-family: 'Amiko';
 }
 
-a {
-	font-family: 'Amiko';
-}
-
-.cover {
-  position: relative;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  filter: brightness(40%);
-}
-
-#bg1 {
-	background-image: url("img/mountain.jpg");
-	min-height: 100vh;
+.box {
+	flex: 0 0 33.333333%;
+	max-width: 50%;
+	margin: 6px 0px 6px 0px;
+	padding: 6px 6px 6px 6px;
+	display: inline-block;
+	background-color: white;
+	background-clip: border-box;
+	border-radius: .25rem;
 }
 
 .caption {
@@ -49,24 +51,13 @@ a {
 	font-size: 50px;
 }
 
-.projects h1 {
-	text-align: center;
-	left: 0;
-	width: 100%;
-	font-size: 50px;
-}
-
-.projects {
-	text-align: center;
-}
-
-.projects p {
-	color: black;
-}
-
-#line {
-	width: 20%;
-	border-color: #4FC1E9;
+.cover {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(40%);
 }
 
 .links a {
@@ -74,24 +65,34 @@ a {
 	margin: 6px;
 }
 
-.projects a{
+.projects {
+	text-align: center;
+}
+
+.projects a {
 	color: black;
 	margin: 6px;
 }
 
-a:hover {
-	color: #4FC1E9;
+.projects h1 {
+	text-align: center;
+	left: 0;
+	width: 100%;
+	font-size: 50px;
 }
 
-.box {
-	flex: 0 0 33.333333%;
-	max-width: 50%;
-	margin: 6px 0px 6px 0px;
-	padding: 6px 6px 6px 6px;
-	display: inline-block;
-	background-color: white;
-	background-clip: border-box;
-	border-radius: .25rem;
+.projects p {
+	color: black;
+}
+
+#bg1 {
+	background-image: url("img/mountain.jpg");
+	min-height: 100vh;
+}
+
+#line {
+	width: 20%;
+	border-color: #4FC1E9;
 }
 
 * {
