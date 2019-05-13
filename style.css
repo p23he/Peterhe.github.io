@@ -11,24 +11,12 @@ h1 {
 	font-family: 'Cutive';
 }
 
-p, h2 {
+p, h2, h3 {
 	font-family: 'Amiko';
 }
 
 a {
 	font-family: 'Amiko';
-}
-
-a:active {
-	color:blue;
-}
-
-a:link {
-	text-decoration: none;
-}
-
-a:visited {
-	text-decoration: none;
 }
 
 .cover {
@@ -86,7 +74,12 @@ a:visited {
 	margin: 6px;
 }
 
-.links a:hover {
+.projects a{
+	color: black;
+	margin: 6px;
+}
+
+a:hover {
 	color: #4FC1E9;
 }
 
