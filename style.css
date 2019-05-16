@@ -3,7 +3,7 @@ a {
 	font-family: 'Amiko';
 }
 
-a:hover {
+.links a:hover, .projects a:hover {
 	color: #4FC1E9;
 }
 
