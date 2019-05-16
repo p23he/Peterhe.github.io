@@ -1,3 +1,12 @@
+
+a {
+	font-family: 'Amiko';
+}
+
+.links a:hover, .projects a:hover {
+	color: #4FC1E9;
+}
+
 body, html {
 	width: 100%;
 	margin: 0;
@@ -11,38 +20,19 @@ h1 {
 	font-family: 'Cutive';
 }
 
-p, h2 {
+p, h2, h3 {
 	font-family: 'Amiko';
 }
 
-a {
-	font-family: 'Amiko';
-}
-
-a:active {
-	color:blue;
-}
-
-a:link {
-	text-decoration: none;
-}
-
-a:visited {
-	text-decoration: none;
-}
-
-.cover {
-  position: relative;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  filter: brightness(40%);
-}
-
-#bg1 {
-	background-image: url("img/mountain.jpg");
-	min-height: 100vh;
+.box {
+	flex: 0 0 33.333333%;
+	max-width: 50%;
+	margin: 6px 0px 6px 0px;
+	padding: 6px 6px 6px 6px;
+	display: inline-block;
+	background-color: white;
+	background-clip: border-box;
+	border-radius: .25rem;
 }
 
 .caption {
@@ -61,15 +51,34 @@ a:visited {
 	font-size: 50px;
 }
 
+.cover {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(40%);
+}
+
+.links a {
+	color: white;
+	margin: 6px;
+}
+
+.projects {
+	text-align: center;
+}
+
+.projects a {
+	color: black;
+	margin: 6px;
+}
+
 h1 {
 	text-align: center;
 	left: 0;
 	width: 100%;
 	font-size: 50px;
-}
-
-.projects {
-	text-align: center;
 }
 
 .projects p {
@@ -78,6 +87,11 @@ h1 {
 
 #aboutme {
 	color: black;
+}
+
+#bg1 {
+	background-image: url("img/mountain.jpg");
+	min-height: 100vh;
 }
 
 #line {
