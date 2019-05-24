@@ -62,6 +62,14 @@ p, h2, h3 {
 	font-size: 50px;
 }
 
+.coursework {
+	text-align: center;
+}
+
+.coursework p {
+	color: black;
+}
+
 .cover {
   position: relative;
   background-attachment: fixed;
