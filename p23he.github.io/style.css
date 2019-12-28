@@ -1,0 +1,210 @@
+// style.css
+
+a {
+	font-family: 'Amiko';
+}
+
+.links a:hover, .projects a:hover {
+	color: #4FC1E9;
+}
+
+body, html {
+	width: 100%;
+	margin: 0;
+}
+
+body {
+	background-color: #F4F4F4;
+}
+
+footer {
+	text-align: center;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	background: black;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+h1 {
+	font-family: 'Cutive';
+}
+
+p, h2, h3, li {
+	font-family: 'Amiko';
+}
+
+.aboutme_pic {
+	text-align: center;
+}
+
+.aboutbox {
+	flex: 0 0 33.333333%;
+	max-width: 75%;
+	margin: 6px 0px 6px 0px;
+	padding: 6px 6px 6px 6px;
+	display: inline-block;
+	background-color: white;
+	background-clip: border-box;
+	border-radius: 1rem;
+}
+
+.box {
+	flex: 0 0 33.333333%;
+	max-width: 50%;
+	margin: 6px 0px 6px 0px;
+	padding: 6px 6px 6px 6px;
+	display: inline-block;
+	background-color: white;
+	background-clip: border-box;
+	border-radius: .25rem;
+}
+
+.caption {
+	position: absolute;
+	top: 35%;
+	text-align: center;
+	left: 0;
+	width: 100%;
+}
+
+.caption h1, p {
+	color: white;
+}
+
+.caption h1 {
+	font-size: 50px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.coursework {
+	text-align: center;
+}
+
+.coursework p {
+	color: black;
+}
+
+.cover {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(40%);
+}
+
+.links a {
+	color: white;
+	margin: 6px;
+}
+
+.links a:hover {
+	color: #4FC1E9;
+}
+
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+	background-color: #fefefe;
+	margin: 15% auto; /* 15% from the top and centered */
+	padding: 20px;
+	border: 1px solid #888;
+	width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.projects {
+	text-align: center;
+}
+
+.projects a {
+	color: black;
+	margin: 6px;
+}
+
+h1 {
+	text-align: center;
+	left: 0;
+	width: 100%;
+	font-size: 50px;
+}
+
+.projects p {
+	color: black;
+}
+
+#aboutme {
+	color: black;
+}
+
+#bg1 {
+	background-image: url("img/mountain.jpg");
+	min-height: 100vh;
+}
+
+#line {
+	width: 20%;
+	border-color: #4FC1E9;
+}
+
+#photo {
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+}
+
+#topButton {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: grey; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#topButton:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+* {
+	  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
